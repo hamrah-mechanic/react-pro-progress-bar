@@ -1,6 +1,6 @@
 {
-  "name": "pro-progress",
-  "version": "4.0.2",
+  "name": "react-pro-progress-bar",
+  "version": "1.0.0",
   "description": "",
   "author": "Hamrah-Mechanic Front End Team",
   "keywords": [
@@ -13,12 +13,12 @@
     "README.md"
   ],
   "types": "dist/ProgressBar/index.d.ts",
-  "main": "./dist/react-library-vite.umd.js",
-  "module": "./dist/react-library-vite.es.js",
+  "main": "./dist/react-pro-progress-bar.umd.js",
+  "module": "./dist/react-pro-progress-bar.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-library-vite.es.js",
-      "require": "./dist/react-library-vite.umd.js"
+      "import": "./dist/react-pro-progress-bar.es.js",
+      "require": "./dist/react-pro-progress-bar.umd.js"
     }
   },
   "scripts": {
