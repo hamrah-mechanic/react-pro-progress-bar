@@ -12,7 +12,7 @@
     "dist",
     "README.md"
   ],
-  "types": "dist/ProgressBar/index.d.ts",
+  "types": "dist/src/lib/ProgressBar/index.d.ts",
   "main": "./dist/react-pro-progress-bar.umd.js",
   "module": "./dist/react-pro-progress-bar.es.js",
   "exports": {
@@ -39,7 +39,6 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
-    "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^1.0.7",
     "babel-loader": "^8.3.0",
     "eslint": "^8.9.0",
@@ -48,7 +47,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.56.1",
-    "styled-components": "^5.3.6",
     "vite": "^2.8.0",
     "vite-plugin-dts": "^1.7.1"
   },
@@ -81,5 +79,8 @@
     "parserOptions": {
       "sourceType": "module"
     }
+  },
+  "dependencies": {
+    "vite-plugin-css-injected-by-js": "^2.1.1"
   }
 }
